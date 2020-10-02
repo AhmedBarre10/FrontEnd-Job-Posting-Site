@@ -1,0 +1,546 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  
+}
+
+.Login{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.login-blue{
+  background-color: dodgerblue;
+  width: 50vw;
+  height: 100vh;
+  z-index: -22;
+  display:  flex;
+
+}
+.login-blue-cont{
+  position: absolute;
+  bottom: 1px;
+  left:50%;
+  z-index: -22;
+
+  display:  flex;
+  justify-content: flex-end;
+}
+.auth-container{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.auth-cont{
+  position: relative;
+  justify-content: flex-start;
+  left: 10%;
+top:100px;
+
+}
+.auth-cont button{
+  border: 0px solid red;
+  width: 25%;
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: dodgerblue;
+  color: white
+}
+.register{
+  border: 1px solid dodgerblue;
+
+}
+
+.LoginPage{
+  display: flex;
+
+  justify-content: center;
+}
+input{
+  padding: 25px;
+  width: 400px;
+  margin-top: 20px;
+  border: 2px solid  rgb(218, 227, 255);
+}
+input:focus{
+ outline: paleturquoise;
+  
+}
+.share{
+  position: relative;
+  left: 30px;
+}
+body{
+  background: rgb(255, 255, 255);
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Tutor{
+  margin: 15px;
+  cursor: pointer;
+  
+  
+}
+.p-cont{
+  display: flex;
+  justify-content: flex-start;
+}
+
+h2{
+  font-weight: 300;
+}
+.alert{
+  color: red;
+}
+.h1{
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+}
+
+.logo-img{
+  width: 25%;
+  position: relative;
+  right: 10%;
+}
+
+.logos{
+  position: absolute;
+  top: 31%;
+  z-index: -2;
+  margin-left: 140px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo{
+  position: relative;
+  top: 0px;
+  margin-left: 140px;
+ width: 400px;
+  display: flex;
+}
+
+.posts{
+  position: relative;
+  display: flex;
+  justify-content:flex-start;
+  left: 38%;
+  top: 100px;
+  width: 45%;
+}
+.Name{
+  position: relative;
+  left: 5px;
+  top: 15px;
+  color: #7c7c7c;
+}
+.Name.main{
+  color: black;
+  font-weight: 300;
+
+  top: 30px;
+
+}
+
+.Apps{
+  width: 95%;
+  position: absolute;
+  top: 5%;
+
+}
+.flex-container.wrap{
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.heroimg{
+  display: flex;
+  position: relative;
+  z-index: -34;
+  left: 26%;
+  top: 100px;
+width: 60vw;
+  justify-content: flex-end;
+
+}
+
+
+@media(max-width:1200px){
+
+.login-blue-cont{
+  display: none;
+}
+.auth-container{
+  display: flex;
+  justify-content: center;
+  z-index: 55;
+
+}
+.auth-cont{
+  position: relative;
+  left: 0%;
+  z-index: 55;
+}
+input{
+  min-width: 200px;
+  z-index: 55;
+
+}
+
+
+.logos{
+  display: none;
+}
+}
+@media(max-width:1300px){
+  .heroimg{
+display: none;
+
+  }
+
+
+
+}
+img{
+  width: 60%;
+ 
+}
+nav{
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 914;
+  position: absolute;
+  top: 70px;
+  right: 5%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.links a{
+
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  text-decoration: none;
+
+  
+
+}
+.links{
+  background-color: dodgerblue;
+  padding: 10px;
+  height: 20px;
+  border-radius: 10px;
+
+}
+
+
+.links{
+
+  z-index: 63;
+
+  text-decoration: none;
+}
+.homelink{
+text-decoration: none;
+}
+
+
+.red{
+  color:red
+}
+.tutors button {
+  position: relative;
+  top: 40px;
+  background-color:dodgerblue;
+  border: 0px solid red;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+.tutors{
+  background-color: rgb(102, 168, 255);
+  width: 15vw;
+  height: 40vh;
+border-radius: 10px;
+  position: relative;
+  top: 200px;
+  margin: 40px;
+  left: 10%;
+
+}
+
+.profileimage{
+width: 120px;
+height: 120px;
+position: relative;
+border-radius: 70px ;
+top: 40px;
+}
+.desc{
+  position: relative;
+  right: 10%;
+}
+
+@media(max-width:700px){
+.Apps{
+  position:absolute;
+  right: 50px;
+}
+
+}
+
+
+
+  
+
+.cont{
+font-size: 15px;
+position: absolute;
+top: 280px;
+width: 460px;
+line-height: 2.5;
+text-align: left;
+
+left: 150px;
+}
+
+.tutors img{
+  width: 15%;
+}
+
+
+.title{
+  font-size: 20px;
+}
+h4{
+  color: rgb(173, 173, 173);font-weight: 300;
+  text-align: left;
+  position: relative;
+  bottom: 10px;
+  width: 300px;
+  left: 2%;
+  font-weight: 400;
+}
+h3{
+  color: rgb(173, 173, 173);font-weight: 300;
+  text-align: left;
+  position: relative;
+  bottom: 10px;
+  width: 400px;
+  left: 0%;
+  font-weight: 400;
+}
+span{
+ color:dodgerblue;
+ font-weight:500
+
+}
+.sub-cont{
+  position: relative;
+  left: 2px;
+  top: 40px;
+}
+.subjects{
+  background-color: dodgerblue;
+  padding: 3px;
+  margin: 10px;
+  position: relative;
+  color: black;
+}
+
+.landingcontent{
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  left: 10%;
+  top: 250px;
+}
+.auth{
+  position:absolute;
+  top: 100%;
+  margin-top: 30px;
+}
+button:focus{
+  outline: none;
+
+}
+
+.welcome{
+  position: relative;
+  font-weight: 400;
+  right: 19%;
+  color: #a7a5a5;
+}
+
+.getStarted{
+  background-color:  dodgerblue;
+  border: 0px solid;
+  width: 120px;
+  height: 40px;
+  margin: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  
+}
+
+@media(max-width:650px){
+  .landingcont{
+   position: relative;
+   right: 130px;
+  }
+
+
+
+
+  .logo{
+display: none;
+  }
+.getStarted{
+  position: relative;
+  right: 8%;
+}
+.auth-container{
+}
+.welcome{
+  position: relative;
+  left: 2%;
+}
+h4{
+  position: relative;
+  left: 8%;
+}
+input{
+  width: 30%;
+}
+
+  .landingcont{
+    display: flex;
+    justify-content: flex-end;
+
+  }
+}
+
+
+
+@media(max-width:2200px){
+  .tutors{
+    width: 550px;
+
+  
+  }
+}
+@media(max-width:700px){
+  .tutors{
+    height: 50vh;
+
+  
+  }
+  .tutors img{
+    width: 45%;
+  }
+}
+
+.more{
+  width: 50vw;
+  position: relative;
+  left: 8%;
+
+}
+.mores{
+  background-color: rgb(100, 180, 255);
+color: white;
+  display: flex;justify-content: center;
+  flex-direction: column;
+  margin-left: 20vw;
+   margin-right: 20vw;
+   position: relative;
+   top: 150px;
+   margin-bottom: 50px;
+}
+input ,textarea{
+  background-color: rgb(206, 224, 252);
+  border: 0px  solid red;
+  margin: 10px;
+}
+textarea{
+
+  height: 200px;
+  outline: none;
+  resize: none;
+  padding: 20px;
+
+
+}
+
+button{
+  width: 400px;
+}
+
+.auth button{
+padding: 15px;
+width: 120px;
+}
+
+.signup-button a{
+  color: rgb(8, 2, 2);
+}
+.description{
+  font-size: 20px;
+  word-break: break-all;
+background-color: white;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 20px;
+}
+.out{
+position:absolute;
+right: 90%;
+top: 6%;
+background-color: dodgerblue;
+height: 20px;
+
+}
