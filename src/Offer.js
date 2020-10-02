@@ -36,7 +36,6 @@ const[alert, setAlert] = useState()
 const onChange = (e) =>{
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
-console.log({...formData, [e.target.name]: e.target.value})
 
 }
 
@@ -60,7 +59,6 @@ const submit = () =>{
       props.history.push('/posts')
     })
     .catch(err => {
-        console.log(err);
 
     })
 

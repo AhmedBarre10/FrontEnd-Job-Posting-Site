@@ -6,7 +6,6 @@ const   Logout = (props) => {
         props.history.push('/login')
     }
     catch(err){
-        console.log(err)
     }
 
     

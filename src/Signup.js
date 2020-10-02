@@ -33,7 +33,6 @@ class SignUp extends React.Component {
             ...this.state.credentials,
             [e.target.name]: e.target.value
         }});
-        console.log(this.state.credentials);
     }
 
     handleSubmit = e => {
@@ -49,7 +48,6 @@ class SignUp extends React.Component {
             this.props.history.push('/posts');
         })
         .catch(err => {
-            console.log(err);
             this.setState({...this.state,alert:`${err}`});
             this.setState({...this.state, isLoading: false});
         })
@@ -64,8 +62,8 @@ class SignUp extends React.Component {
             <div className = "auth-container" >
 
       <div className = "auth-cont" >
-<h1 className = "welcome"> We are <span> Tutor Script </span></h1>
-<h4> Welcome  login as a Tutor </h4>
+<h1 className = "welcome"> We are <span> Ts Jobs</span></h1>
+<h4> Welcome  SignUp!</h4>
 
                           <p className = "alert"> {this.state.alert} </p>
       <div className="LoginPage">
